@@ -172,7 +172,7 @@ function App() {
             <div className="border-l-4 border-blue-600 pl-4">
               <h3 className="text-xl font-semibold">Tecnologo </h3>
               <p>Centro Universitário - Católica de Santa Catarina em Jaraguá do Sul</p>
-              <p className="text-gray-900">Análise Desenvolvimento de Sistemass</p>
+              <p className="text-gray-900">Análise Desenvolvimento de Sistemas</p>
             </div>
           </div>
         </div>
