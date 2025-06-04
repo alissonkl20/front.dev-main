@@ -29,9 +29,15 @@ function App() {
       <header className="relative h-screen flex items-center justify-center bg-gradient-to-br from-blue-900 to-purple-900 text-white">
         <div className="absolute inset-0">
           <img
-            src='./src/images/lade.jpeg'
+            src="./src/images/lade.jpeg"
             alt="Background"
-            className="w-full h-full object-cover opacity-85 md:object-center"
+            className="w-full h-full object-cover md:object-center"
+            style={{
+              filter: 'brightness(0.95) contrast(1.15) saturate(1.1)',
+              imageRendering: 'auto',
+            }}
+            loading="eager"
+            decoding="async"
           />
         </div>
         <div className="relative z-10 text-center px-4">
