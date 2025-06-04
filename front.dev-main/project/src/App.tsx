@@ -102,7 +102,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className={`p-6 rounded-lg shadow-md ${sectionClasses}`}>
               <h3 className="text-xl font-semibold mb-2">Email</h3>
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-100 mb-4">
                 Contato profissional.
               </p>
               <a href="mailto:almeidadeoliveiraalisson04@gmail.com" className="text-blue-600 hover:text-blue-800 inline-flex items-center gap-1">
